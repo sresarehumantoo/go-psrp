@@ -14,7 +14,7 @@ Complete PowerShell Remoting Protocol implementation for Go with multiple transp
 >   running command on Ctrl-C, and fail the pipeline on cancellation so
 >   `Execute`'s `pipeline.Wait()` cannot hang.
 > - `wsman` Receive `OperationTimeout` adapts to the caller's deadline (default
->   1s, `EVIL_WINRM_POLL_SECONDS`) so a long-poll returns before the socket
+>   1s, `WSMANCER_POLL_SECONDS`) so a long-poll returns before the socket
 >   deadline fires.
 > - `checkRelatesTo` — correlate every response to its request (WS-Addressing
 >   `MessageID` → `RelatesTo`), the only replay/substitution defence in the stack.
@@ -73,7 +73,7 @@ This library builds on [go-psrpcore](https://github.com/smnsjas/go-psrpcore) by 
 ## Installation
 
 ```bash
-go get github.com/smnsjas/go-psrp
+go get github.com/sresarehumantoo/go-psrp
 ```
 
 ## Quick Start
@@ -88,7 +88,7 @@ import (
     "fmt"
     "log"
 
-    "github.com/smnsjas/go-psrp/client"
+    "github.com/sresarehumantoo/go-psrp/client"
 )
 
 func main() {
