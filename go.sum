@@ -16,8 +16,8 @@ github.com/gorilla/securecookie v1.1.2 h1:YCIWL56dvtr73r6715mJs5ZvhtnY73hBvEF8kX
 github.com/gorilla/securecookie v1.1.2/go.mod h1:NfCASbcHqRSY+3a8tlWJwsQap2VX5pwzwo4h3eOamfo=
 github.com/gorilla/sessions v1.4.0 h1:kpIYOp/oi6MG/p5PgxApU8srsSw9tuFbt46Lt7auzqQ=
 github.com/gorilla/sessions v1.4.0/go.mod h1:FLWm50oby91+hl7p/wRxDth9bWSuk0qVL2emc7lT5ik=
-github.com/smnsjas/go-psrpcore v0.0.0-20260211164949-dace42c5b6a8 h1:05eIBJ9sP8uCbYrDjAOa3L50+G8C1Ldg7KMyvK2S4PE=
-github.com/smnsjas/go-psrpcore v0.0.0-20260211164949-dace42c5b6a8/go.mod h1:jQD6DZ5fbdmPO1vajs/lcIzph/HHpPG/nPRkRPG6qCk=
+github.com/sresarehumantoo/go-psrpcore v0.0.0-20261124202958-25a87e77cb78 h1:W+icElH3o9NufhZY015Ue5Y4VVQs4xIlEfAEzQMPvH4=
+github.com/sresarehumantoo/go-psrpcore v0.0.0-20261124202958-25a87e77cb78/go.mod h1:jQD6DZ5fbdmPO1vajs/lcIzph/HHpPG/nPRkRPG6qCk=
 github.com/stretchr/testify v1.12.1 h1:EuwCh5fleGS7H32xRwO3wRGT7DxrDhLAT6FF8MpWDWE=
 github.com/stretchr/testify v1.12.1/go.mod h1:MDEgiDPPsNp5cuIrHPPCyornHKgEVbtFUmoNlxoYthg=
 go.yaml.in/yaml/v3 v3.0.5 h1:N6y/pJk8buWs9NY5ERU2HSMfm+IuD/OtfdAnq6kESPw=
